@@ -1,0 +1,23 @@
+#gif-body {
+    float: left;
+    clear: both;
+    position: absolute;
+}
+
+.rating {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: yellow;
+    top: 0px;
+    left: 15px;
+    z-index: 100;
+    text-align: center
+}
+
+.gifimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
