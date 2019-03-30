@@ -1,3 +1,5 @@
+$("body").backstretch("assets/images/background.gif")
+
 //Append list options to dropdowns
 var foods = ["pizza", "mashed potatoes", "hamburger", "apple pie", "roast beef", "scrambled eggs"]
 var animals = ["sheep", "bear", "porcupine", "snake", "cat", "moose"]
