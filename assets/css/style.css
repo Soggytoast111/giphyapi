@@ -15,9 +15,15 @@
     text-align: center
 }
 
-.gifimg {
-    position: absolute;
+.gifImg {
     top: 0;
     left: 0;
+    box-sizing: border-box;
+}
 
+.gifDiv {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 70px;
 }

@@ -43,8 +43,8 @@ function grabGif() {
       method: "GET"
     }).then(function(response) {
         for (i=0; i<response.data.length; i++) {
-        var gifDiv = $("<div class='gifDiv col-4'>")
-        var gifImg = $("<img class='gifImg'>")
+        var gifDiv = $("<div class='gifDiv col-md-4 -col-sm-6 col-xs-12'>")
+        var gifImg = $("<img class='gifImg img-fluid'>")
         var rating = $("<div class='rating'>")
         
         rating.text(response.data[i].rating)
