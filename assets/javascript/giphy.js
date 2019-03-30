@@ -35,7 +35,7 @@ $(document).on("click", "[gif-link]", function(){
 
 function grabGif() {
     
-    var queryURL = "http://api.giphy.com/v1/gifs/search?api_key=nuyjh4RM1RzY3Ca7xGVttTeF4Hvubkqk&limit=10&q=" + gifPull
+    var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=nuyjh4RM1RzY3Ca7xGVttTeF4Hvubkqk&limit=10&q=" + gifPull
     console.log(gifPull)    
 
     $.ajax({
